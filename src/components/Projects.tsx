@@ -3,13 +3,12 @@ import { motion } from 'framer-motion';
 import { MetalPanel } from './ui/MetalPanel';
 const projects = [
 {
-  id: '1',
-  title: 'Tranquility App',
-  photo: undefined,
-  description:
-  'iOS ambient sound mixer with customizable soundscapes and polished UI for studying and relaxation.',
-  tags: ['Swift', 'iOS', 'UI/UX', 'Audio', 'Xcode'],
-  link: 'https://github.com/JLuca11/Tranquility-App',
+  id: '6',
+  title: 'IU Poster Map',
+  photo: 'Photos/IUSEPosterMap.jpg',
+  description: 'Static, print-ready geospatial visualization of IU engagement data designed for clarity at poster scale.',
+  tags: ['Python', 'Folium/Leaflet', 'Print Design', 'Data Visualization'],
+  link: 'https://github.com/JLuca11/IU-South-East-Community-Partner-Map',
   status: 'Deployed'
 },
 {
@@ -33,12 +32,13 @@ const projects = [
   status: 'Deployed'
 },
 {
-  id: '6',
-  title: 'IU Poster Map',
-  photo: 'Photos/IUSEPosterMap.jpg',
-  description: 'Static, print-ready geospatial visualization of IU engagement data designed for clarity at poster scale.',
-  tags: ['Python', 'Folium/Leaflet', 'Print Design', 'Data Visualization'],
-  link: 'https://github.com/JLuca11/IU-South-East-Community-Partner-Map',
+  id: '1',
+  title: 'Tranquility App',
+  photo: undefined,
+  description:
+  'iOS ambient sound mixer with customizable soundscapes and polished UI for studying and relaxation.',
+  tags: ['Swift', 'iOS', 'UI/UX', 'Audio', 'Xcode'],
+  link: 'https://github.com/JLuca11/Tranquility-App',
   status: 'Deployed'
 },
 {
@@ -46,7 +46,7 @@ const projects = [
   title: 'EHR Data Quality Assessment',
   photo: undefined,
   description:
-  'Data quality scoring for EHR datasets (completeness/plausibility/conformance) with anomaly detection and synthetic error testing.',
+  'Data Science Capstone Project: Data quality scoring for EHR datasets (completeness/plausibility/conformance) with anomaly detection and synthetic error testing.',
   tags: ['Python', 'Unsupervised Learning', 'SQL', 'Validation', 'Healthcare'],
   link: '#',
   status: 'Active · In Progress'
