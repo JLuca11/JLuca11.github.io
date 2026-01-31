@@ -32,7 +32,7 @@ export function Hero() {
         </h1>
 
         <p className="text-lg text-gray-400 mb-16 max-w-2xl mx-auto leading-relaxed">
-        Data science and analytics focused on transforming raw data into clear, actionable insight.
+        Turning raw data into clear, usable insights through data science and analytics.
         </p>
 
         <DigitLock />

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Lock, LockOpen } from 'lucide-react';
-export function DigitLock() {
+export function DigitLock() { 
   const [isUnlocked, setIsUnlocked] = useState(false);
   const [digits, setDigits] = useState(['0', '0', '0', '0']);
   const [_, setLockedDigits] = useState([false, false, false, false]);

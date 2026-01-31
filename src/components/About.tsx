@@ -116,7 +116,8 @@ export function About() {
                   <GraduationCap size={16} className="mt-1 text-gray-500" />
                   <div className="leading-snug">
                     <p>B.S. Data Science, Indiana University</p>
-                    <p className="text-sm text-gray-400">Minor in Computer Science</p>
+                    <p className="text-sm text-gray-300">Luddy School of Informatics, Computing, and Engineering</p>
+                    <p className="text-sm text-gray-400">Minor: in Computer Science</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3 text-gray-300">

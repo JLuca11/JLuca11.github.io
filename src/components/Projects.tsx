@@ -73,7 +73,7 @@ export function Projects() {
             SELECTED WORK
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl">
-            A curated set of data science and analytics projects, from raw ingestion to real-world insights.
+            A curated set of data science and analytics projects showcasing skills in data wrangling, modeling, and visualization.
           </p>
         </div>
 
