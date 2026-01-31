@@ -7,7 +7,7 @@ import {
   Briefcase,
   GraduationCap } from
 'lucide-react';
-
+// SVG Icons for LinkedIn and GitHub
 function LinkedInIcon({ size = 18, className }: { size?: number; className?: string }) {
   return (
     <svg
