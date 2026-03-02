@@ -66,7 +66,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24 px-8 border-t border-gray-800">
+    <section id="projects" className="py-24 px-4 sm:px-8 border-t border-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">
@@ -102,7 +102,7 @@ export function Projects() {
                 const container = (
                   <MetalPanel className={`relative rounded-sm overflow-hidden h-full flex flex-col bg-black/20 border border-white/5 transition-colors ${hasLink ? 'group-hover:border-green-500/50' : 'group-hover:border-gray-500/50'}`}>
                   <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white/20 group-hover:border-green-500/50" />
-                  <div className="relative h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center border-b border-gray-700 overflow-hidden">
+                  <div className="relative h-32 sm:h-48 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center border-b border-gray-700 overflow-hidden">
                   {project.photo ? (
                     <img
                       src={project.photo}
@@ -116,9 +116,9 @@ export function Projects() {
                   )}
                 </div>
 
-                <div className="p-6 flex-grow flex flex-col">
+                <div className="p-4 sm:p-6 flex-grow flex flex-col">
                   <div className="flex justify-between items-start mb-3">
-                    <h3 className="text-xl font-bold text-white">
+                    <h3 className="text-lg sm:text-xl font-bold text-white">
                       {project.title}
                     </h3>
                     <span

@@ -45,7 +45,7 @@ export function DigitLock() {
   return (
     <div className="flex flex-col items-center gap-6">
       {/* Container with border around digits and lock */}
-      <div className="inline-flex items-center gap-6 px-8 py-6 bg-black/20 border border-gray-700/50 rounded-lg">
+      <div className="inline-flex items-center gap-6 px-4 sm:px-8 py-4 sm:py-6 bg-black/20 border border-gray-700/50 rounded-lg">
         <div className="flex gap-3">
           {digits.map((digit, i) =>
           <motion.div
@@ -61,7 +61,7 @@ export function DigitLock() {
             transition={{
               delay: i * 0.1
             }}
-            className="w-16 h-20 bg-[#1a1f2e] border border-gray-700 rounded-md flex items-center justify-center">
+            className="w-12 h-16 sm:w-16 sm:h-20 bg-[#1a1f2e] border border-gray-700 rounded-md flex items-center justify-center">
 
               <span className="text-4xl font-bold text-white font-mono">
                 {digit}
@@ -71,7 +71,7 @@ export function DigitLock() {
         </div>
 
         {/* Lock icon - red when locked, green when unlocked */}
-        <div className="flex items-center justify-center w-14 h-14">
+        <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14">
           {isUnlocked ?
           <motion.div
             initial={{

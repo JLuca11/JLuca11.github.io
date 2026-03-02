@@ -83,13 +83,13 @@ const projects = [
 
 export function About() {
   return (
-    <section id="about" className="py-24 px-8 border-t border-gray-800">
+    <section id="about" className="py-24 px-4 sm:px-8 border-t border-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 tracking-tight">
             ABOUT ME
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl">
+          <p className="text-lg sm:text-xl text-gray-400 max-w-2xl">
             Outside of data work, I enjoy snowboarding, anime, history, and building side projects. 
             I tend to learn best through hands-on experimentation.
           </p>
@@ -97,9 +97,9 @@ export function About() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Profile */}
           <div className="h-full">
-            <MetalPanel className="p-8 rounded-sm h-full flex flex-col">
+            <MetalPanel className="p-4 sm:p-8 rounded-sm h-full flex flex-col">
               <div className="flex items-center gap-4 mb-6 pb-6 border-b border-white/10">
-                <div className="w-16 h-16 bg-gradient-to-br from-gray-600 to-gray-800 rounded flex items-center justify-center text-2xl font-bold text-gray-200 shadow-lg">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-gray-600 to-gray-800 rounded flex items-center justify-center text-2xl font-bold text-gray-200 shadow-lg">
                   JL
                 </div>
                 <div>

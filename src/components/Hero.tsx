@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col items-center justify-center px-8 pt-20 relative">
+      className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-8 pt-20 relative">
 
       <motion.div
         initial={{
@@ -23,7 +23,7 @@ export function Hero() {
           Available for Hire
         </div>
 
-        <h1 className="text-6xl md:text-7xl font-bold mb-4 leading-tight tracking-tight">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-4 leading-tight tracking-tight">
           <span className="text-white">John Lucaccioni</span>
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
