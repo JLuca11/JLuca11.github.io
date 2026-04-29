@@ -3,6 +3,16 @@ import { motion } from 'framer-motion';
 import { MetalPanel } from './ui/MetalPanel';
 const projects = [
 {
+  id: '3',
+  title: 'EHR Data Quality Assessment',
+  photo: 'Photos/EHRDataQualityImg.jpeg',
+  description:
+  'Data Science Capstone Project: Evaluated EHR documentation completeness through peer-relative anomaly detection, statistical validation, and clinical benchmarking.',
+  tags: ['Python', 'Unsupervised Learning', 'SQL', 'Validation', 'Healthcare'],
+  link: 'https://github.com/joluca-iu/EHR-DQ-Capstone',
+  status: 'Deployed'
+},
+{
   id: '6',
   title: 'IU Poster Map',
   photo: 'Photos/IUSEPosterMap.jpg',
@@ -40,16 +50,6 @@ const projects = [
   tags: ['Swift', 'iOS', 'UI/UX', 'Audio', 'Xcode'],
   link: 'https://github.com/JLuca11/Tranquility-App',
   status: 'Deployed'
-},
-{
-  id: '3',
-  title: 'EHR Data Quality Assessment',
-  photo: undefined,
-  description:
-  'Data Science Capstone Project: Data quality scoring for EHR (Eletronic Health Record) datasets (completeness/plausibility/conformance) with anomaly detection and synthetic error testing.',
-  tags: ['Python', 'Unsupervised Learning', 'SQL', 'Validation', 'Healthcare'],
-  link: '#',
-  status: 'Active · In Progress'
 },
 {
   id: '5',

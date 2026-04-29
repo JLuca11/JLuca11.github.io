@@ -52,9 +52,9 @@ const projects = [
 {
   id: '1',
   title: 'EHR Data Quality Assessment',
-  description: 'Data Science Capstone Project: Data quality scoring for EHR (Electronic Health Record) datasets (completeness/plausibility/conformance) with anomaly detection and synthetic error testing.',
+  description: 'Data Science Capstone Project: Evaluated EHR documentation completeness through peer-relative anomaly detection, statistical validation, and clinical benchmarking.',
   tags: ['Python', 'Unsupervised Learning', 'SQL'],
-  status: 'Active · In Progress'
+  status: 'Deployed'
 },
 {
   id: '2',
