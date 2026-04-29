@@ -5,7 +5,7 @@ const projects = [
 {
   id: '3',
   title: 'EHR Data Quality Assessment',
-  photo: 'Photos/EHRDataQualityImg.jpeg',
+  photo: 'Photos/EHRDataQualityImg.jpg',
   description:
   'Data Science Capstone Project: Evaluated EHR documentation completeness through peer-relative anomaly detection, statistical validation, and clinical benchmarking.',
   tags: ['Python', 'Unsupervised Learning', 'SQL', 'Validation', 'Healthcare'],
