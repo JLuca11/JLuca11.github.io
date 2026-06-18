@@ -60,18 +60,19 @@ const projects = [
   id: '2',
   title: 'Indiana University Engagement Map',
   description:
-  'Layered maps for programs and partnerships using county/campus overlays and configurable tags for fast exploration',
+  'Interactive map for programs and partnerships to explore IU partners.',
   tags: ['Python', 'Folium/Leaflet', 'Data Visualization'],
+  status: 'Deployed'
+},
+{
+  id: '3',
+  title: 'Overwatch Engagement Analyzer',
+  photo: 'Photos/OverwatchAnalyzer.jpg',
+  description: 'ML pipeline that models team fight stages in Overwatch using match API data and computer vision for objective status detection.',
+  tags: ['Python', 'Machine Learning', 'Computer Vision', 'OpenCV', 'Overwatch API', 'Data Analysis'],
+  link: 'https://github.com/JLuca11/Overwatch-Engagement-Analyzer',
   status: 'Active · In Progress'
 },
-// {
-//   id: '3',
-//   title: 'IU Poster Map',
-//   description:
-//   'Static, print-ready geospatial visualization of IU engagement data designed for clarity at poster scale.',
-//   tags: ['Python', 'Geospatial', 'Data Visualization'],
-//   status: 'Active · In Progress'
-// },
 {
   id: '4',
   title: 'AWS Solutions Architect Prep',
