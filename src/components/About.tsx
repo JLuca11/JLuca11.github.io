@@ -50,8 +50,16 @@ function GitHubIcon({ size = 18, className }: { size?: number; className?: strin
 import { MetalPanel } from './ui/MetalPanel';
 const projects = [
 {
+  id: '3',
+  title: 'Statswatch — Overwatch Gameplay Analytics',
+  photo: 'Photos/OverwatchAnalyzer.jpg',
+  description: 'Gameplay analytics platform combining match telemetry and computer vision to capture objective data and segment matches into team fights, enabling granular performance analysis.',
+  tags: ['Python', 'Machine Learning', 'Computer Vision', 'OpenCV', 'Data Engineering', 'UX/UI'],
+  status: 'Active · In Progress'
+},
+{
   id: '1',
-  title: 'EHR Data Quality Assessment',
+  title: 'Clinical EHR Data Quality Analysis & Reliability Assessment',
   description: 'Data Science Capstone Project: Evaluated EHR documentation completeness through peer-relative anomaly detection, statistical validation, and clinical benchmarking.',
   tags: ['Python', 'Unsupervised Learning', 'SQL'],
   status: 'Deployed'
@@ -65,21 +73,12 @@ const projects = [
   status: 'Deployed'
 },
 {
-  id: '3',
-  title: 'Overwatch Engagement Analyzer',
-  photo: 'Photos/OverwatchAnalyzer.jpg',
-  description: 'ML pipeline that models team fight stages in Overwatch using match API data and computer vision for objective status detection.',
-  tags: ['Python', 'Machine Learning', 'Computer Vision', 'OpenCV', 'Overwatch API', 'Data Analysis'],
-  link: 'https://github.com/JLuca11/Overwatch-Engagement-Analyzer',
-  status: 'Active · In Progress'
-},
-{
   id: '4',
-  title: 'AWS Solutions Architect Prep',
-  description: `Structured preparation for the AWS Solutions Architect Associate exam using Adrian Cantrill’s 
-  course. Emphasizes AWS fundamentals and architecture best practices, culminating in a capstone-style cloud project.`,
-  tags: ['AWS', 'Cloud Architecture', 'Infrastructure as Code', 'Security', 'Networking', 'Hand-on Labs'],
-  status: 'Active · In Progress'
+  title: 'IU News Community Engagement Classifier',
+  photo: 'Photos/IUNews.jpg',
+  description: 'Agentic pipeline that scrapes IU News, classifies articles by community engagement relevance, and automates weekly content curation for my team.',
+  tags: ['Python', 'Claude', 'BeautifulSoup', 'Agentic AI', "NLP"],
+  status: 'Deployed'
 }];
 
 export function About() {
@@ -91,8 +90,8 @@ export function About() {
             ABOUT ME
           </h2>
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl">
-            Outside of data work, I enjoy snowboarding, anime, history, and building side projects. 
-            I tend to learn best through hands-on experimentation.
+            Outside of data work, I enjoy gaming, snowboarding, anime, history, 
+            and building side projects. My interest in gaming often finds its way into my projects, like Statwatch.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -135,8 +134,8 @@ export function About() {
               </div>
 
               <p className="text-gray-300 leading-relaxed mb-8 text-sm">
-                I enjoy working on problems where the data is messy and the answers aren’t obvious. I build data pipelines, analytical models, 
-                and visual tools to help turn raw information into insights that people can actually use and trust.
+                I enjoy solving problems where data is messy and the answers aren’t obvious. 
+                I build pipelines, analytical models, and visual tools that turn raw data into clear, useful insights.
               </p>
 
               <div className="flex gap-3 mb-4">
@@ -179,18 +178,15 @@ export function About() {
             </MetalPanel>
           </div>
 
-          {/* Active Projects */}
+          {/* Recent Projects */}
           <div className="lg:col-span-2">
             <div className="mb-8">
               <div className="flex items-center gap-3 mb-4">
                 <Briefcase className="w-6 h-6 text-green-400" />
                 <h3 className="text-2xl font-bold text-white tracking-widest">
-                  ACTIVE PROJECTS
+                  RECENT PROJECTS
                 </h3>
               </div>
-              <p className="text-gray-400">
-                Currently in development or maintenance.
-              </p>
             </div>
 
               <div className="grid sm:grid-cols-2 gap-6">

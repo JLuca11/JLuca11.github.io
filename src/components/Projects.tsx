@@ -3,8 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { MetalPanel } from './ui/MetalPanel';
 const projects = [
 {
+  id: '8',
+  title: 'Statswatch — Overwatch Gameplay Analytics',
+  photo: 'Photos/StatswatchIcon.png',
+  imageFit: 'contain' as const,
+  description: 'Gameplay analytics platform combining match telemetry and computer vision to capture objective data and segment matches into team fights, enabling granular performance analysis.',
+  tags: ['Python', 'Machine Learning', 'Computer Vision', 'OpenCV', 'Data Engineering', 'UX/UI'],
+  link: 'https://github.com/JLuca11/Statswatch-Overwatch-Gameplay-Analytics',
+  status: 'Active · In Progress'
+},
+{
   id: '3',
-  title: 'EHR Data Quality Assessment',
+  title: 'Clinical EHR Data Quality Analysis & Reliability Assessment',
   photo: 'Photos/EHRCapstoneImg.jpg',
   description:
   'Data Science Capstone Project: Evaluated EHR documentation completeness through peer-relative anomaly detection, statistical validation, and clinical benchmarking.',
@@ -16,18 +26,9 @@ const projects = [
   id: '7',
   title: 'IU News Community Engagement Classifier',
   photo: 'Photos/IUNews.jpg',
-  description: 'Agentic pipeline that scrapes IU news and classifies articles.',
+  description: 'Agentic pipeline that scrapes IU News, classifies articles by community engagement relevance, and automates weekly content curation for my team.',
   tags: ['Python', 'Claude API', 'BeautifulSoup', 'Agentic AI', "NLP"],
   link: 'https://github.com/joluca-iu/IU-News-Weekly',
-  status: 'Deployed'
-},
-{
-  id: '6',
-  title: 'IU Poster Map',
-  photo: 'Photos/IUSEPosterMap.jpg',
-  description: 'Static, print-ready geospatial visualization of IU engagement data designed for clarity at poster scale.',
-  tags: ['Python', 'Folium/Leaflet', 'Print Design', 'Data Visualization'],
-  link: 'https://github.com/JLuca11/IU-South-East-Community-Partner-Map',
   status: 'Deployed'
 },
 {
@@ -38,6 +39,15 @@ const projects = [
   'Interactive map for programs and partnerships to explore IU partners',
   tags: ['Python', 'Folium/Leaflet', 'Geo Data', 'Data Visualization'],
   link: 'https://schoolpartnerships.iu.edu/impact/statewide-snapshot.html',
+  status: 'Deployed'
+},
+{
+  id: '6',
+  title: 'IU Poster Map',
+  photo: 'Photos/IUSEPosterMap.jpg',
+  description: 'Static, print-ready geospatial visualization of IU engagement data designed for clarity at poster scale.',
+  tags: ['Python', 'Folium/Leaflet', 'Print Design', 'Data Visualization'],
+  link: 'https://github.com/JLuca11/IU-South-East-Community-Partner-Map',
   status: 'Deployed'
 },
 {
@@ -70,15 +80,7 @@ const projects = [
   link: 'https://github.com/JLuca11/Tranquility-App',
   status: 'Deployed'
 },
-{
-  id: '8',
-  title: 'Overwatch Engagement Analyzer',
-  photo: undefined,
-  description: 'ML pipeline that models team fight stages in Overwatch using match API data and computer vision for objective status detection.',
-  tags: ['Python', 'Machine Learning', 'Computer Vision', 'OpenCV', 'Overwatch API', 'Data Analysis'],
-  link: 'https://github.com/JLuca11/Overwatch-Engagement-Analyzer',
-  status: 'Active · In Progress'
-},
+
 ];
 
 function ProjectCard({ project }: { project: typeof projects[0] }) {
@@ -92,7 +94,7 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
           <img
             src={project.photo}
             alt={project.title}
-            className="w-full h-full object-cover"
+            className={`w-full h-full ${project.imageFit === 'contain' ? 'object-contain p-4' : 'object-cover'}`}
           />
         ) : (
           <span className="text-4xl font-bold text-gray-600">
