@@ -27,12 +27,12 @@ export function Hero() {
           <span className="text-white">John Lucaccioni</span>
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-            Developer Portfolio
+            Portfolio
           </span>
         </h1>
 
         <p className="text-lg text-gray-400 mb-16 max-w-2xl mx-auto leading-relaxed">
-        Turning raw data into clear, usable insights through data science and analytics.
+        Interested in technology, data, and the process of figuring things out.
         </p>
 
         <DigitLock />

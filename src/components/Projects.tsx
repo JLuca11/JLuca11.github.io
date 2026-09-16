@@ -26,7 +26,7 @@ const projects = [
   id: '7',
   title: 'IU News Community Engagement Classifier',
   photo: 'Photos/IUNews.jpg',
-  description: 'AI-driven pipeline that identifies community engagement activities in IU News articles and streamlines data entry and tracking.',
+  description: 'Agentic workflow that identifies community engagement activities in IU News articles to streamlines data entry and tracking.',
   tags: ['Python', 'Claude API', 'BeautifulSoup', 'Agentic AI', "NLP"],
   link: 'https://github.com/joluca-iu/IU-News-Weekly',
   status: 'Deployed'
