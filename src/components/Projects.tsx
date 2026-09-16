@@ -23,22 +23,22 @@ const projects = [
   status: 'Deployed'
 },
 {
+  id: '5',
+  title: 'Indiana P-12 Partnership Map',
+  photo: 'Photos/IUInteractiveMap.jpg',
+  description:
+  "Production web application mapping 1,370 IU P-12 partnerships across 268 school districts and 98% of Indiana counties. Built in Python, deployed as a containerized PHP app on IU's Kubernetes platform via GitHub Actions, with a scheduled job pulling partnership data from the Collaboratory API so the map stays current without manual updates. Used for IU 2030 strategic goal tracking and partner reporting.",
+  tags: ['Python', 'Leaflet', 'Geospatial', 'API', 'GitHub Actions'],
+  link: 'https://schoolpartnerships.iu.edu/impact/statewide-snapshot.html',
+  status: 'Deployed'
+},
+{
   id: '7',
   title: 'IU News Community Engagement Classifier',
   photo: 'Photos/IUNews.jpg',
   description: 'Agentic workflow that identifies community engagement activities in IU News articles to streamlines data entry and tracking.',
   tags: ['Python', 'Claude API', 'BeautifulSoup', 'Agentic AI', "NLP"],
   link: 'https://github.com/joluca-iu/IU-News-Weekly',
-  status: 'Deployed'
-},
-{
-  id: '5',
-  title: 'Indiana University Engagement Map',
-  photo: 'Photos/IUInteractiveMap.jpg',
-  description:
-  'Interactive map for programs and partnerships to explore IU partners',
-  tags: ['Python', 'Folium/Leaflet', 'Geo Data', 'Data Visualization'],
-  link: 'https://schoolpartnerships.iu.edu/impact/statewide-snapshot.html',
   status: 'Deployed'
 },
 {

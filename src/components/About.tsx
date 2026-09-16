@@ -66,9 +66,9 @@ const projects = [
 },
 {
   id: '2',
-  title: 'Indiana University Engagement Map',
+  title: 'Indiana P-12 Partnership Map',
   description:
-  'Interactive map for programs and partnerships to explore IU partners.',
+  "Production web application mapping 1,370 university–school partnerships across 268 Indiana districts and 98% of the state's counties, auto-refreshed from a live API.",
   tags: ['Python', 'Folium/Leaflet', 'Data Visualization'],
   status: 'Deployed'
 },
@@ -134,8 +134,6 @@ export function About() {
               </div>
 
               <p className="text-gray-300 leading-relaxed mb-8 text-sm">
-                I enjoy solving problems where data is messy and the answers aren’t obvious. 
-                I build pipelines, analytical models, and visual tools that turn raw data into clear, useful insights.
               </p>
 
               <div className="flex gap-3 mb-4">
