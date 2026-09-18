@@ -164,9 +164,6 @@ export function Projects() {
           <h2 className="text-4xl font-bold text-white mb-4 tracking-tight">
             SELECTED WORK
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl">
-            A curated set of data science and analytics projects showcasing skills in data wrangling, modeling, and visualization.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
