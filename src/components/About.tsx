@@ -91,7 +91,7 @@ export function About() {
           </h2>
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl">
             Outside of data work, I enjoy gaming, snowboarding, anime, history, 
-            and building side projects. My interest in gaming often finds its way into my projects, like Statwatch.
+            and building side projects. My interest in gaming often finds its way into my projects, like Statswatch.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
